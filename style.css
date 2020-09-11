@@ -1,0 +1,31 @@
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 20px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+div {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  float: left;
+  background: #000;
+  color: white;
+  /*aby tekst byl wysrodkowany w kwadracie nalzey dac line height takiej samej wartosci jak height*/
+  text-align: center;
+  line-height: 50px;
+}
+.circle {
+  background-color: #fff;
+  color: black;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.triangle {
+  background-color: #cdcdcd;
+  color: black;
+  width: 50px;
+  height: 50px;
+}
